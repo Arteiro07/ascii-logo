@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 3D Logo Converter
+
+This project demonstrates the process of creating a 3D logo using React Three Fiber with TypeScript, Next.js, Drei, and Blender. The 3D logo is then converted to ASCII code for further creative exploration.
+
+## Technologies Used
+
+- React Three Fiber: A React renderer for three.js, making it easier to work with 3D graphics in React.
+- TypeScript: Adds static typing to JavaScript, enhancing code quality and developer productivity.
+- Next.js: A React framework for building server-rendered and statically generated web applications.
+- Drei: A collection of useful helpers and abstractions for React Three Fiber.
+- Blender: A powerful open-source 3D content creation suite.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/Arteiro07/ascii-logo.git
+   ```
+Install Dependencies:
+
+```bash
+npm install
+```
+Run the Project:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open http://localhost:3000 to view the project in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+License
+This project is licensed under the MIT License.
